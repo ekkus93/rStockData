@@ -1,14 +1,14 @@
 #' Gets historical stock data from Yahoo Finance
 #' 
-#'  @param symbol - Yahoo stock ticker symbol
-#'  @param endMon - ending month
-#'  @param endDay - ending day
-#'  @param endYear - ending year
-#'  @param startMon - start month
-#'  @param startDay - start day
-#'  @param startYear - start year
-#'  @param cacheDir - cache directory
-#'  @param useCache - use cached data if available
+#'  @param symbol Yahoo stock ticker symbol
+#'  @param endMon ending month
+#'  @param endDay ending day
+#'  @param endYear ending year
+#'  @param startMon start month
+#'  @param startDay start day
+#'  @param startYear start year
+#'  @param cacheDir cache directory
+#'  @param useCache use cached data if available
 #'  @return a data frame of historical stock data
 #'  @import stringr
 #'  @author Phillip Chin

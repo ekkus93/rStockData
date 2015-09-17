@@ -9,23 +9,23 @@ getYahooStockData(symbol, endMon, endDay, endYear, startMon = 1,
   useCache = FALSE)
 }
 \arguments{
-\item{symbol}{- Yahoo stock ticker symbol}
+\item{symbol}{Yahoo stock ticker symbol}
 
-\item{endMon}{- ending month}
+\item{endMon}{ending month}
 
-\item{endDay}{- ending day}
+\item{endDay}{ending day}
 
-\item{endYear}{- ending year}
+\item{endYear}{ending year}
 
-\item{startMon}{- start month}
+\item{startMon}{start month}
 
-\item{startDay}{- start day}
+\item{startDay}{start day}
 
-\item{startYear}{- start year}
+\item{startYear}{start year}
 
-\item{cacheDir}{- cache directory}
+\item{cacheDir}{cache directory}
 
-\item{useCache}{- use cached data if available}
+\item{useCache}{use cached data if available}
 }
 \value{
 a data frame of historical stock data
