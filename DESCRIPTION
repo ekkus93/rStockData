@@ -1,0 +1,12 @@
+Package: rStockData
+Type: Package
+Title: Stock Data Utility
+Version: 1.0
+Date: 2015-09-17
+Author: Phillip Chin
+Maintainer: Phillip Chin <ekkus93@gmail.com>
+Description: This is utility for getting historical stock data.
+License: GPL-3
+Imports:
+  stringr
+
